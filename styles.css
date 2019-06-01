@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+}
+
+.banner {
+	width: 5%;
+	position: absolute;
+	top: 0;
+	left: 90%;
+	-webkit-filter: drop-shadow(1px 1px 1px #222);
+	filter: drop-shadow(1px 1px 1px #222);
+}
+
+@media only screen and (max-width: 1200px) {
+	.banner {
+		width: 8%;
+		left: 88%;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.banner {
+		width: 10%;
+		left: 85%;
+	}
+}
+
+
+.bg-image {
+	background-image: url("background.png");
+	height: 100vh;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.line {
+	width: 100vw;
+}
+
+.left,
+.right {
+	width: 50vw;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.left {
+	color: rgb(37, 51, 113);
+	transform: skew(0deg, -15deg);
+}
+
+.right {
+	color: rgb(206, 234, 251);
+	transform: skew(0deg, 15deg);
+}
+
+.spanSlow {
+	-webkit-filter: drop-shadow(1px 1px 1px #222);
+	filter: drop-shadow(1px 1px 1px #222);
+}
+
+.anim-logo {
+	width: 40%;
+	height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+	.anim-logo {
+		width: 50%;
+	}
+}
+
+.left .content {
+	width: 100vw;
+	text-align: center;
+}
+
+.right .content {
+	width: 100vw;
+	text-align: center;
+	transform: translate(-50vw);
+}
+
+span {
+	margin: 15px;
+	display: inline-block;
+	font-family: 'Arial', sans-serif;
+	font-size: 3vw;
+	transition: ease-out .6s;
+}
+
+@media only screen and (max-width: 1000px) {
+	span {
+		font-size: 5vw;
+	}
+}
+
+.particles-1 {
+	position: absolute;
+	top: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+.particles-2 {
+	position: absolute;
+	top: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+.logo-face {
+	width: 5%;
+	position: absolute;
+	top: 25%;
+	left: 47.5%;
+	-webkit-filter: drop-shadow(2px 2px 2px #222);
+	filter: drop-shadow(2px 2px 2px #222);
+}
+
+@media only screen and (max-width: 1200px) {
+	.logo-face {
+		width: 8%;
+		top: 27%;
+		left: 46%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.logo-face {
+		width: 10%;
+		top: 34%;
+		left: 45%;
+	}
+}
+
+.wrap {
+	top: 40%;
+	position: absolute;
+	text-align: center;
+}
+
+.desc {
+	color: rgb(37, 51, 113);
+	-webkit-filter: drop-shadow(0.8px 0.8px 0.8px #222);
+	filter: drop-shadow(0.8px 0.8px 0.8px #222);
+}
+
+.register-button {
+	background-color: rgb(37, 51, 113) !important;
+	position: absolute;
+	top: 35%;
+	-webkit-filter: drop-shadow(1px 1px 1px #222);
+	filter: drop-shadow(1px 1px 1px #222);
+}
