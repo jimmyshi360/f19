@@ -36,6 +36,7 @@ body {
 .bg-image {
 	background-image: url("background.png");
 	height: 100vh;
+	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
