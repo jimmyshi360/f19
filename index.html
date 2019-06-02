@@ -16,13 +16,22 @@
       <div class="line">
           <div class="left">
             <div class="content">
-              <span class="spanFast"><img src= "hoptextleft.gif?<?php echo time();?>" class="anim-logo"></img></span>
-			  
+              <span class="spanFast"><img id="left-text" src= "" class="anim-logo"></img></span>
+			  <script type="text/javascript">
+					var element = document.getElementById("left-text");
+element.src = "";  
+element.src = "hoptextleft.gif?"+new Date().getTime();
+				</script>
             </div>
           </div><!--
           --><div class="right">
             <div class="content">
-              <span class="spanFast"><img src= "hoptextright.gif?<?php echo time();?>" class="anim-logo" ></img></span>
+              <span class="spanFast"><img id="right-text" src= "" class="anim-logo" ></img></span>
+			  <script type="text/javascript">
+					var element = document.getElementById("right-text");
+element.src = "";  
+element.src = "hoptextright.gif?"+new Date().getTime();
+</script>
             </div>
           </div>
         </div>
